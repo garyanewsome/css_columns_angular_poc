@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <script src="node_modules/angular/angular.js"></script>
+  <script src="dist/app.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="dist/css/app.css">
+
+</head>
+<body ng-app="app" ng-controller="myCtrl" ng-init="initialize()">
+  <div class="lots-of-items">
+    <div class="item" ng-repeat="a in arr">
+      {{ a }}
+    </div>
+  </div>
+
+</body>
+</html>

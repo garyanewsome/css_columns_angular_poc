@@ -1,0 +1,12 @@
+body {
+  font-size: 24px;
+}
+
+.lots-of-items {
+  width: 800px;
+  columns: 2;
+}
+
+.item {
+  padding: 8px 0;
+}

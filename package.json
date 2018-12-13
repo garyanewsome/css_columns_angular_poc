@@ -1,0 +1,15 @@
+{
+  "name": "angular_1_7_5_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ref.js",
+  "dependencies": {
+    "angular": "^1.7.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
